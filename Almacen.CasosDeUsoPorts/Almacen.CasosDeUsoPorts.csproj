@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Almacen.DTOs\Almacen.DTOs.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="InputPorts\Categoria\" />
+    <Folder Include="InputPorts\Producto\" />
+  </ItemGroup>
+
+</Project>
